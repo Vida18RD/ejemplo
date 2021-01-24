@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+{% block title %}
+Vida18 AI Camera
+{% endblock %}
+
+{% block nav %}
+<form action="/run" method="POST">
+
+    <label for="bloque">
+        Bloque:
+    </label><br>
+    <input type="text" name="bloque" placeholder="bloque"><br>
+
+    <label for="cama">
+        Cama:
+    </label><br>
+    <input type="text" name="cama" placeholder="cama"><br>
+
+    <label for="start">Date:</label>
+    <input type="date" id="date" name="date"
+       value="2019-01-01"
+       min="2019-01-01" max="2030-12-31">
+    <br>
+    <button type="submit"> RUN </button>
+</form>
+{% endblock %}
+
+

@@ -1,0 +1,28 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body 
+{
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+header
+{
+    width: 100%;
+    background: lightgrey;
+    margin: 1px auto;
+    padding-bottom: 0px;
+}
+#logo{
+    display:block;
+    margin:auto;
+    padding-bottom: 0%;
+    }
+h5.description
+{
+    display:block;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 0%;
+}
